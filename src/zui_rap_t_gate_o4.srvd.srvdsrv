@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_RAP_T_GATE'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_RAP_T_GATE'
+  }
+}
+define service ZUI_RAP_T_GATE_O4 {
+  expose ZC_RAP_T_GATE;
+}
